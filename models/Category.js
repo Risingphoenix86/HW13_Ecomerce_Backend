@@ -9,7 +9,7 @@ Category.init(
     id: {
     type: DataTypes.INTEGER,
     allowNull: false,
-    primaryKry: true,
+    primaryKey: true,
     autoIncrement: true
     },
     category_name: {
